@@ -7,9 +7,10 @@
     ><span v-if="isLogin"> | </span>
     <router-link to="/tasks" v-if="isLogin">Tasks</router-link>
   </nav>
-  <router-view class="rv" />
-  <footer class="fttr">
-    <div>I'm am footer</div>
+  <router-view></router-view>
+  <footer>
+    <div>I'm am footer</div>    
+ 
   </footer>
 </template>
 
@@ -63,7 +64,4 @@ footer {
 }
 </style>
 
-<!-- #495C83 -->
-<!-- #7A86B6 -->
-<!-- #A8A4CE -->
-<!-- #C8B6E2 -->
+

@@ -8,7 +8,22 @@
           <span
             :class="{
               completed: el.status === 'completed',
-              incompleted: el.status === 'incompleted',
+              incompleted: el.status === 'incompleted',======
+170
+ 
+.nBtn {
+171
+ 
+  /* width: 40%; */
+172
+ 
+  margin: 0 1rem;
+173
+ 
+  padding: 1rem 2rem;
+174
+ 
+
             }"
             >{{ el.status }}</span
           >
@@ -126,13 +141,21 @@ export default {
 
 .task-list {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns
+162
+ 
+.nBtn {
+: auto auto auto auto auto;
 
   grid-gap: 2rem;
   justify-content: center;
 }
 
 .task {
+162
+ 
+.nBtn {
+
   border: 0.2rem solid #666;
   padding: 2rem;
   border-radius: 2rem;
@@ -149,9 +172,14 @@ export default {
   font-size: 0.9rem;
   color: #b94242;
 }
-.nBtn {
-  /* width: 40%; */
-  margin: 0 1rem;
-  padding: 1rem 2rem;
+.incompleted{
+    font-size: .9rem;
+    color: blue;
+    }
+.nBtn{
+    /* width: 40%; */
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+
 }
 </style>

@@ -10,11 +10,11 @@
         <label for="password">Password</label>
         <input :type="showPassword ? 'text' : 'password'" v-model="password" placeholder="password">
       </div>
-      <div class="row" v-if="password">
+      <div class="row" v-show="password">
         <input type="checkbox" v-model="showPassword">
         <label for="show-password">Show Password</label>
       </div>
-      <button class="btn">login</button>
+      <button class="btn">Login</button>
     </form>
   </div>
 </template>
