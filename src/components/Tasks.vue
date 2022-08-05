@@ -82,7 +82,7 @@ export default {
 }
 .incompleted{
     font-size: .9rem;
-    color: #b94242;
+    color: blue;
     }
 .nBtn{
     /* width: 40%; */

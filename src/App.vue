@@ -6,7 +6,7 @@
     <router-link to="/signup">Sign up</router-link><span v-if="isLogin"> | </span>
     <router-link to="/tasks" v-if="isLogin">Tasks</router-link>
   </nav>
-  <router-view/>
+  <router-view></router-view>
   <footer>
     <div>I'm am footer</div>    
   </footer>
@@ -56,7 +56,3 @@ footer{
 }
 </style>
 
-<!-- #495C83 -->
-<!-- #7A86B6 -->
-<!-- #A8A4CE -->
-<!-- #C8B6E2 -->
